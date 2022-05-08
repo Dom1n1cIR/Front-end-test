@@ -1,0 +1,64 @@
+.card {
+  background: white;
+  border: 10px solid #eeeef0;
+  width: 20rem;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+.card .card_image {
+  background-image: url("https://picsum.photos/300/300");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+.card .card_content {
+  padding: 2rem 1rem 1rem 1rem;
+  position: relative;
+}
+.card .card_title {
+  font-family: "Times";
+}
+.card .card_price {
+  display: inline-block;
+  background: orange;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -15px);
+}
+.card .card_description {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.card .card_footer_content {
+  padding: 1rem;
+  border-top: 1px solid #eeeef0;
+}
+.card p.card_footer_text {
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 20%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvertica, sans-serif;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
