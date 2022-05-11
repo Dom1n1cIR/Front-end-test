@@ -55,9 +55,4 @@ const byName = people.sort((a, b) => {
 const ageOnly = people.map(({age}) => ({ age }));
 // console.log(ageOnly);
 
-
-function sum(a, b) {
-    return a + b
-}
-
 module.exports = { isPalindrome }
